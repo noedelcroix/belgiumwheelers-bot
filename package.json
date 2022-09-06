@@ -1,0 +1,20 @@
+{
+  "name": "bot-belgiumwheelers",
+  "version": "1.0.0",
+  "main": "view/main.mjs",
+  "author": "Noé DELCROIX",
+  "type": "module",
+  "license": "",
+  "dependencies": {
+    "@discordjs/rest": "^0.3.0",
+    "discord-api-types": "^0.30.0",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "fs": "^0.0.1-security",
+    "gif-info": "^1.0.1",
+    "winston": "^3.7.2"
+  },
+  "scripts": {
+    "start": "npm install && nodemon view/main.mjs"
+  }
+}

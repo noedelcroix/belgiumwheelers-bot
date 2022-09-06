@@ -1,0 +1,82 @@
+[
+    {
+        "buttons": [
+            [{
+                "text": "🚀 Start",
+                "id": "start",
+                "primaryId": true
+            }]
+        ]
+    },
+    {
+        "text": "Type your nickname",
+        "prompt": {
+            "action":{
+                "type": "nickname"
+            }
+        }
+    },
+    {
+        "text":"Wheelcome to the new Belgium Wheelers galaxy! We're really excited to invite you beyond the Cosmos. Here you will find a new to way to communicate with each other: simpler, more precise and more adapted to you !!! \nClick to start a short journey first !!! May the force be with you and enjoy ⚡🚀⚡",
+        "image":"step1.gif",
+        "buttons": [
+            [{
+                "text": "🚀 Take off",
+                "id": "takeoff",
+                "primaryId": true
+            }]
+        ]
+    },
+    {
+        "image":"intro.gif"
+    },
+    {
+        "text":"First things first: Before leaving on a journey to this new planet we obviously ask you to accept the BW values charter as well as the internal rules of our new communication tool. \nClick here to accept the rules ⚡🙏⚡",
+        "image":"step2.gif"
+    },
+    {
+        "text":"La Charte des valeurs de Belgium Wheelers ( à respecter): \nL’association défend les principes d’égalité, de liberté et d’humanisme sur lesquels se fondent les sociétés démocratiques. Elle se veut une association progressiste, indépendante et pluraliste, respectant les convictions personnelles de chacun de ses membres. \nLe respect de l’environnement, de l’intégrité morale et physique des divers utilisateurs des voies publiques (piétons, cyclistes, motards, automobilistes, etc.) ainsi que le respect des limites de chacun(e) font partie intégrante des droits humains. Pour ces raisons, Belgium Wheelers favorise et renforce le droit pour chacun(e) de choisir et de poser ses propres limites, de façon individuelle et/ou collective. \nBelgium Wheelers défie les idées reçues sur les nouveaux moyens de micro-mobilité, remet en question les stéréotypes et l’accessibilité afin de créer de nouvelles solidarités et de renforcer celles qui existent. \nBelgium Wheelers s’inscrit dans une logique de prévention, de formation et de sécurité routière, entre autres par l’organisation de parcours urbains ou ruraux réunissant des groupes d’utilisateurs, des ateliers techniques, des activités culturelles mobiles dans diverses régions, des activités sportives en plein air ou en salle, pouvant être adaptables aux engins de micro-mobilité (notamment le Polowheel, le Gyro-polo, le Frisbee-wheel, le Basket-wheel, etc.). \nBelgium Wheelers entend tenir compte de tous les niveaux des participants à ses activités. Belgium Wheelers entend contribuer à plus de bien-être et de sécurité dans tous les déplacements.Par les activités organisées, Belgium Wheelers entend permettre aux participant(e)s et membres de développer leurs ressources, leur détermination, réduire leur isolement et d’obtenir une image plus positive d’eux-mêmes. \nBelgium Wheelers œuvre à développer les éléments indispensables à ceux-ci à savoir l’autonomie, la confiance en soi et la capacité d’action des citoyen(ne)s.",
+        "buttons": [
+            [{
+                "text": "✓ I agree.",
+                "id": "agree",
+                "primaryId": true
+            }]
+        ]
+    },
+    {
+        "text":"La Charte du serveur Discord : \n Bienvenue dans le groupe réservé aux membres de BELGIUM WHEELERS ASBL. Nous sommes les mordus de la glisse électrique en Belgique, donc bienvenue parmi nous ! Ce groupe est fait pour partager avec vous les activités de l'association, des bons plans, des idées et encourager l'entraide parmi les membres Belgium Wheelers. \nNotre objectif est de promouvoir l'usage de la micro-mobilité du fin fond des Ardennes jusqu'à la Belgische Kust en Flandres en passant par la Grand-Place et toutes les rues de Bruxelles. Nous organisons notamment des balades sur la route et dans les forêts, des ateliers découverte et de perfectionnement, des événements promotionnels et des rencontres sportives.\nTous les membres de ce groupe s’engagent à être respectueux, ouvert, tolérant et s'abstiendront de faire du ‘brand-bashing’.",
+        "buttons": [
+            [{
+                "text": "✓ I agree too.",
+                "id": "agreetoo",
+                "primaryId": true
+            }]
+        ]
+    },
+    {
+        "image":"intro.gif"
+    },
+    {
+        "text":"After this short trip at the speed of light, we invite you to introduce yourself and share your experience with your EDPM in at least 10 lines/300 chars (eg: name (nickname), years of experience, number of kilometers traveled, type of vehicles used, reason for your vehicle choice, etc.).",
+        "image":"step3.gif",
+        "prompt": {
+            "minLines": 5,
+            "action":{
+                "type": "copy",
+                "channel": "présentez-vous"
+            } 
+        }
+    },
+    {
+        "text":"Please choose your favourite category from the menu on the left. Leave a message within that category explaining why you chose it! \nThank you all for taking part in this journey and welcome to planet BW ⚡🔥⚡ wheelcome, enjoy and see you soon ⚡🚀⚡️",
+        "image":"step4.gif",
+        "buttons": [
+            [{
+            "text": "Let's Goooo !!!!",
+            "id": "letsgo",
+            "primaryId": true
+        }]
+    ]
+    }
+]

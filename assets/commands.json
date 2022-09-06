@@ -1,0 +1,18 @@
+[{
+    "name": "questionnaire",
+    "description": "Simulate your server incoming. Show the incoming quiz."
+  },{
+    "name": "clean",
+    "description": "Remove all channel messages.",
+    "options": [{
+      "type": 1,
+      "name": "keep",
+      "description": "Remove all channel messages but keep first message of channel."
+    },
+    {
+      "type": 1,
+      "name": "all",
+      "description": "Remove all channel messages."
+    }]
+  }
+  ]
